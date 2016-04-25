@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento Migrations Module
+ *
+ * @category    MagentoHackathon
+ * @package     MagentoHackathon_MagentoMigrations
+ * @author      Gabriel Somoza <gabriel@somoza.me>
+ * @author      Witold Janusik <mail@freak.io>
+ * @author      Zbigniew Labacz <zbigniew.labacz@hatimeria.com>
+ * @author      Nils Preuss <nils.preuss@gmx.net>
+ * @copyright   MagentoHackathon
+ * @license     https://opensource.org/licenses/MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="MagentoHackathon_MagentoMigrations" setup_version="1.0.0">
+    </module>
+</config>

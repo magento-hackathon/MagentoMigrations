@@ -11,7 +11,7 @@ use Magento\Framework\Setup\SchemaSetupInterface;
  *
  * @author Gabriel Somoza <gabriel.somoza@cu.be>
  */
-final class InstallSchema
+class InstallSchema
 {
     /** Name for the migrations table */
     const MIGRATIONS_TABLE = 'migrations';
