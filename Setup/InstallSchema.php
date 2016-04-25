@@ -26,8 +26,7 @@ class InstallSchema
         $installer->startSetup();
         $connection = $installer->getConnection();
 
-        $table = new Table();
-        $table->setName(self::MIGRATIONS_TABLE);
+        $table = $connection->newTable(self::MIGRATIONS_TABLE);
         $table->addColumn(
             'id',
             Table::TYPE_TEXT,
