@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type class="Magento\Framework\Console\Plugin\SubscriberManager">
+        <arguments>
+            <argument name="subscribers" xsi:type="array">
+                <item name="magentoMigrations" xsi:type="object">MagentoHackathon\MagentoMigrations\Cli\Subscriber\UpgradeSubscriber</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
