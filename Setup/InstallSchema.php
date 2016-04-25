@@ -27,10 +27,12 @@ class InstallSchema
         $connection = $installer->getConnection();
 
         $table = new Table();
+        $table->setName(self::MIGRATIONS_TABLE);
         $table->addColumn(
             'id',
             Table::TYPE_TEXT,
-            null, [
+            null,
+            [
                 'nullable' => false,
                 'primary' => true,
             ]
