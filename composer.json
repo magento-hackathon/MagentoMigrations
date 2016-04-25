@@ -1,0 +1,14 @@
+{
+    "name": "magento-hackathon/magento2-migrations",
+    "description": "A component that makes migration management easier for everyone",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Somoza",
+            "email": "gabriel@somoza.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
