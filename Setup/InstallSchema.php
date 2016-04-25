@@ -31,7 +31,7 @@ class InstallSchema implements InstallSchemaInterface
         $table->addColumn(
             'id',
             Table::TYPE_TEXT,
-            null,
+            255,
             [
                 'nullable' => false,
                 'primary' => true,
