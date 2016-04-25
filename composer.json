@@ -34,7 +34,7 @@
     },
     "require": {
         "magento/framework": "^100.0",
-        "baleen/migrations": "^0.10.0",
+        "baleen/migrations": "^0.10.0"
     },
     "require-dev": {
         "symfony/event-dispatcher": "^2.8",
