@@ -1,6 +1,6 @@
 <?php
 
-namespace MagentoHackathon\MagentoMigrations;
+namespace MagentoHackathon\MagentoMigrations\Setup;
 
 use Magento\Framework\DB\Ddl\Table;
 use Magento\Framework\Setup\ModuleContextInterface;
