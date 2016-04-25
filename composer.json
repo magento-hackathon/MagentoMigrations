@@ -7,8 +7,36 @@
         {
             "name": "Gabriel Somoza",
             "email": "gabriel@somoza.me"
+        },
+        {
+            "name": "Witold Janusik",
+            "email": "mail@freak.io"
+        },
+        {
+            "name": "Zbigniew Labacz",
+            "email": "zbigniew.labacz@hatimeria.com"
+        },
+        {
+            "name": "Nils Preuß",
+            "email": "nils.preuss@gmx.net"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "autoload": {
+        "psr-4": {"MagentoHackathon\\MagentoMigrations\\":""},
+        "files": ["registration.php"]
+    },
+    "require": {
+        "magento/framework": "^100.0",
+        "baleen/migrations": "^0.10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
 }
