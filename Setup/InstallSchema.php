@@ -3,6 +3,7 @@
 namespace MagentoHackathon\MagentoMigrations\Setup;
 
 use Magento\Framework\DB\Ddl\Table;
+use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
 
@@ -11,7 +12,7 @@ use Magento\Framework\Setup\SchemaSetupInterface;
  *
  * @author Gabriel Somoza <gabriel.somoza@cu.be>
  */
-class InstallSchema
+class InstallSchema implements InstallSchemaInterface
 {
     /** Name for the migrations table */
     const MIGRATIONS_TABLE = 'migrations';
